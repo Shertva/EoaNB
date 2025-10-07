@@ -2,19 +2,12 @@ on_actions = {
 	on_startup = {
 		effect = {
 			# DUAL LEADER SET UP INFO
-			USA = {
-				set_temp_variable = { temp_char = token:USA_character_james_buchanan }
+			ENG = {
+				set_temp_variable = { temp_char = token:ENG_Victoria }
 				ASF_character_data = yes
-				set_temp_variable = { temp_char = token:USA_character_john_breckinridge }
-				ASF_character_data = yes
-				USA_character_john_breckinridge = {
-					ASF_promote_character_to_dual_leader = yes
-				}
-				set_temp_variable = { temp_title = token:USA_president }
-				set_temp_variable = { temp_position = 1 }
-				ASF_change_leader_title = yes
-				set_temp_variable = { temp_title = token:USA_vice_president }
-				set_temp_variable = { temp_position = 2 }
+				ENG_Victoria = { ASF_promote_character_to_dual_leader = yes }
+				set_temp_variable = { temp_title = token:VL_Queen }
+				set_temp_variable = { temp_position = 1 } #NEEDS TO BE CUT OUT
 				ASF_change_leader_title = yes
 			}
 		}

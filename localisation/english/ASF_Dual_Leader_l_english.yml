@@ -1,4 +1,5 @@
-﻿l_english:
+﻿
+l_english:
 # Example - USA 
 USA_character_john_breckinridge: "Woodrow Wilson"
 USA_character_john_breckinridge_desc: "Woodrow Wilson Description"
@@ -11,7 +12,6 @@ USA_vice_president: "Vice President"
 # xoxo sprinkles <3
 # thanks i will not touch it because i fear the ears will be deployed
 second_leader: "[?ASF_second_leader:character_token.GetTokenLocalizedKey]"
-first_leader_title: "[?ASF_leader_titles^0.GetTokenLocalizedKey]"
 second_leader_title: "[?ASF_leader_titles^1.GetTokenLocalizedKey]"
 dual_leader_pol_tt: "§Y[?ASF_second_leader:character_token.GetTokenLocalizedKey]§!"
 dual_leader_diplo_tt: "§Y[?ASF_second_leader:character_token.GetTokenLocalizedKey]§!\n[?ASF_leader_titles^1.GetTokenLocalizedKey] of §Y[THIS.GetNameWithFlag]§!"

@@ -1,14 +1,14 @@
 defined_text = { #FOR PORTRAIT
 	name = VL_picture
 	#text = { # Example
-	#	trigger = { TAG = XYZ }
-	#	localization_key = [XYZ_VL_picture]
+	#	trigger = { TAG = TAG }
+	#	localization_key = [TAG_VL_picture]
 	#}
 	text = {
 		trigger = { TAG = TSH }
 		localization_key = [TSH_VL_picture]
 	}
-	text = {
+    text = {
 		trigger = { TAG = ENG }
 		localization_key = [ENG_VL_picture]
 	}
@@ -18,46 +18,72 @@ defined_text = { #FOR PORTRAIT
 defined_text = { #FOR NAME
 	name = VL_name
 	#text = { # Example
-	#	trigger = { TAG = XYZ }
-	#	localization_key = [XYZ_VL_name]
+	#	trigger = { TAG = TAG }
+	#	localization_key = [TAG_VL_name]
 	#}
 	text = {
 		trigger = { TAG = TSH }
 		localization_key = [TSH_VL_name]
 	}
-	text = {
+    text = {
 		trigger = { TAG = ENG }
 		localization_key = [ENG_VL_name]
 	}
 	text = { localization_key = VL_name }
 }
 
+#defined_text = {
+#	name = VL_state
+#	#text = { # Example
+#	#	trigger = { TAG = TAG }
+#	#	localization_key = [TAG_VL_state]
+#	#}
+#	text = {
+#		trigger = { TAG = TSH }
+#		localization_key = [TSH_VL_state]
+#	}
+#	text = { localization_key = VL_state }
+#}
+#
+#defined_text = {
+#	name = VL_Dip_state
+#	#text = { # Example
+#	#	trigger = { TAG = TAG }
+#	#	localization_key = [TAG_VL_Dip_state]
+#	#}
+#	text = {
+#		trigger = { TAG = TSH }
+#		localization_key = [TSH_VL_Dip_state]
+#	}
+#	text = { localization_key = VL_Dip_state }
+#}
+
 defined_text = { # FOR DESCRIPTION
 	name = VL_desc
 	#text = { # Example
-	#	trigger = { TAG = XYZ }
-	#	localization_key = [XYZ_VL_desc]
+	#	trigger = { TAG = TAG }
+	#	localization_key = [TAG_VL_desc]
 	#}
 	text = {
 		trigger = { TAG = TSH }
 		localization_key = [TSH_VL_desc]
 	}
-	text = {
+    text = {
 		trigger = { TAG = ENG }
 		localization_key = [ENG_VL_desc]
 	}
 	text = { localization_key = VL_desc }
 }
 
-defined_text = {
-	name = VL_status
-	#text = {
+defined_text = { #TITLE OF VICE LEADER
+	name = VL_Status
+	#text = { # Example
 	#	trigger = { FROM = { check_variable = { VL_status_var = one number higher than the last } } }
 	#	localization_key = VL_Whatever_you_want
 	#}
 	text = {
 		trigger = { FROM = { check_variable = { VL_status_var = 1 } } }
-		localization_key = VL_generic_status
+        localization_key = VL_generic
 	}
 	text = {
 		trigger = { FROM = { check_variable = { VL_status_var = 2 } } }
